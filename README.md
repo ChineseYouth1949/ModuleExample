@@ -13,11 +13,11 @@ A guide to building projects using cmake and c++20 modules.
     It is necessary to use other.h headers in your modules, such as third-party libraries.
 ## 5.multiple export
     More ways to export.
-## 6.sub_module
+## 6.sub module
     Creating and using submodules.
     Benefit: You can import the entire contents of a module at once, or you can import parts you want to use in turn.
     Note that when you import submodules from the main module, if you don't use export, the submodules won't be visible to the code importing the main module.
-## 7.module_partitions
+## 7.module partitions
     Create and use module partitions.
     The hierarchy of submodules is visible to the user, but the module partitions are not visible to the user but only within the module itself.
 
