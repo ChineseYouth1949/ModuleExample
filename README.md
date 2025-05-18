@@ -9,13 +9,15 @@ A guide to building projects using cmake and c++20 modules.
     Create a module that only contains.cppm and export it for use as a library.
 ## 3.separate imp
     Create and use modules that contain .cppm. cpp.
-## 4.multiple export
+## 4.use header
+    It is necessary to use other.h headers in your modules, such as third-party libraries.
+## 5.multiple export
     More ways to export.
-## 5.sub_module
+## 6.sub_module
     Creating and using submodules.
     Benefit: You can import the entire contents of a module at once, or you can import parts you want to use in turn.
     Note that when you import submodules from the main module, if you don't use export, the submodules won't be visible to the code importing the main module.
-## 6.module_partitions
+## 7.module_partitions
     Create and use module partitions.
     The hierarchy of submodules is visible to the user, but the module partitions are not visible to the user but only within the module itself.
 
