@@ -33,5 +33,6 @@ A guide to building projects using cmake and c++20 modules.
     The modules are implemented in.cpp files in order to present the user with a concise.cppm. It is also possible to declare and then place the implementation at the end of the.cppm file, which has the same effect as defining it in.cpp.
 
 # References
+《Professional c++, Fifth Edition》
 cmake       :   https://cmake.org/cmake/help/latest/manual/cmake-cxxmodules.7.html
 c++ module  :   https://learn.microsoft.com/zh-cn/cpp/cpp/modules-cpp?view=msvc-170
